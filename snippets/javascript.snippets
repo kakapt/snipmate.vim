@@ -7,14 +7,14 @@ snippet fun
 snippet if
 	if (${1:true}) {
 		${2:// statements}
-	}
+	}${3:}
 # if ... else
 snippet ife
 	if (${1:true}) {
 		${2:// statements}
 	} else {
 		${3:// statements}
-	}
+	}${4:}
 # if ... else if ... else
 snippet ifee
 	if (${1:true}) {
@@ -23,7 +23,7 @@ snippet ifee
 		${4:// statements}
 	} else {
 		${5:// statements}
-	}
+	}${6:}
 # tertiary conditional
 snippet t
 	${1:/* condition */} ? ${2:a} : ${3:b}
